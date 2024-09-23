@@ -50,15 +50,6 @@ nav ul li a:hover {
     text-decoration: underline;
     color: blue;
 }
-
-/* Profile Image */
-.profile {
-    display: block;
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    margin: auto;
-}
     
 /* Section Styling */
 section {
