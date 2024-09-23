@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding:20px;
+}
+
+
+nav {
+    background: white;
+    color: black;
+    padding: 10px ;
+}
+nav .logo {
+    float: left;
+    width: 60px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Profile Image */
+.profile {
+    display: block;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+}
+    
+/* Section Styling */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+#ABOUT {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+#SKILLS ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#SKILLS li {
+    margin-bottom: 10px;
+}
+
+.education-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.education-card h3 {
+    margin-top: 0;
+}
+
+.education-card p {
+    margin-bottom: 10px;
+}
+
+.description {
+    font-style: italic;
+    color: #666;
+}
+
+#CONTACT a {
+    color: #333;
+    text-decoration: none;
+}
+
+#CONTACT a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 3px solid #ddd;
+}
+footer p {
+    margin: 0;
+}
